@@ -1,0 +1,110 @@
+# Historical-Figure
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> José Rizal Timeline </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+            background-color: #FFF176;
+        }
+        nav {
+            background: #333;
+            padding: 10px;
+            overflow: hidden;
+            border-radius: 5px;
+            margin: 0px;
+            text-align: center;            
+        }
+    
+        nav a {
+            display: inline-block; /* Makes each link behave like an inline element */
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+                
+        }
+    
+        nav a:hover {
+            border-bottom: 2px solid rgb(255, 255, 255);
+        }
+        
+        .timeline {
+            position: relative;
+            max-width: 600px;
+            margin: auto;
+            padding: 10px;
+        }
+        .timeline-event {
+            background: white;
+            border-radius: 6px;
+            padding: 10px;
+            margin: 10px 0;
+            position: relative;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .timeline-event::before {
+            content: '';
+            position: absolute;
+            left: -15px;
+            top: 15px;
+            width: 10px;
+            height: 10px;
+            background: #007bff;
+            border-radius: 50%;
+        }
+        .date {
+            font-weight: bold;
+            color: #007bff;
+        }
+        p {
+            font-size: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="frontpage.html">Home</a>
+        <a href="biography.html">Biography</a>
+        <a href="timeline.html">Timelines</a>
+        <a href="images.html">Images</a>
+        <a href="rr.html">Relevant Resources</a>
+    </nav>
+
+<h1 align="center">Timeline of José Rizal</h1>
+<div class="timeline">
+    <div class="timeline-event">
+        <div class="date">June 19, 1861</div>
+        <p>José Rizal was born in Calamba, Laguna, Philippines.</p>
+    </div>
+    <div class="timeline-event">
+        <div class="date">1877</div>
+        <p>Rizal graduated from the Ateneo Municipal de Manila with a degree in Bachelor of Arts.</p>
+    </div>
+    <div class="timeline-event">
+        <div class="date">1884</div>
+        <p>He earned his degree in Medicine from the Universidad Central de Madrid in Spain.</p>
+    </div>
+    <div class="timeline-event">
+        <div class="date">1891</div>
+        <p>Rizal published his second novel, "El Filibusterismo".</p>
+    </div>
+    <div class="timeline-event">
+        <div class="date">1892</div>
+        <p>He founded the La Liga Filipina, a civic organization aimed at promoting reforms in the Philippines.</p>
+    </div>
+    <div class="timeline-event">
+        <div class="date">1896</div>
+        <p>Rizal was arrested and later executed on December 30, 1896, in Bagumbayan (now Luneta Park).</p>
+    </div>
+</div>
+
+</body>
+</html>
